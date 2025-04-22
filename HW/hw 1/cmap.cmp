@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cmap>
+  <Concepts>
+    <Concept id="c1" label="Linear Regression"/>
+    <Concept id="c2" label="Supervised Learning"/>
+    <Concept id="c3" label="Simple Linear Regression"/>
+    <Concept id="c4" label="Multiple Linear Regression"/>
+    <Concept id="c5" label="Mathematical Model & Parameters"/>
+    <Concept id="c6" label="Least Squares & Cost Function"/>
+    <Concept id="c7" label="Regression Assumptions"/>
+    <Concept id="c8" label="Model Evaluation"/>
+    <Concept id="c9" label="Regression with Categorical Variables"/>
+    <Concept id="c10" label="Interactions & Multicollinearity"/>
+    <Concept id="c11" label="Outliers & Influential Points"/>
+  </Concepts>
+
+  <Connections>
+    <Connection from="c1" to="c2" label="is a type of"/>
+    <Connection from="c1" to="c3" label="includes"/>
+    <Connection from="c1" to="c4" label="includes"/>
+    <Connection from="c3" to="c5" label="uses"/>
+    <Connection from="c4" to="c5" label="uses"/>
+    <Connection from="c1" to="c6" label="uses"/>
+    <Connection from="c1" to="c7" label="has"/>
+    <Connection from="c1" to="c8" label="evaluates using"/>
+    <Connection from="c1" to="c9" label="includes"/>
+    <Connection from="c1" to="c10" label="is affected by"/>
+    <Connection from="c1" to="c11" label="is affected by"/>
+  </Connections>
+</Cmap>
